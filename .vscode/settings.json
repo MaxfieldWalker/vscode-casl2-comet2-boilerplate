@@ -1,0 +1,6 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "casl2.allowNegativeValueForEffectiveAddress": true,
+    "casl2.enableLabelScope": true,
+    "casl2.useGR8": true
+}

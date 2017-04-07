@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "comet2",
+            "request": "launch",
+            "name": "Debug current file",
+            "program": "${file}",
+            "stopOnEntry": false,
+            "commonOptions": {
+                "useGR8AsSP": "${config.casl2.useGR8}"
+            },
+            "casl2Options": {
+                "enableLabelScope": "${config.casl2.enableLabelScope}",
+                "allowNegativeValueForEffectiveAddress": "${config.casl2.allowNegativeValueForEffectiveAddress}"
+            },
+            "comet2Options": {
+                "allowSelfModifying": false
+            }
+        }
+    ]
+}
